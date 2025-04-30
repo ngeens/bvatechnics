@@ -17,11 +17,13 @@ body {
 
     margin: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* header, main, footer rows */
+    grid-template-rows: auto 1fr auto;
+    /* header, main, footer rows */
     height: 100vh;
 }
 
-header, footer {
+header,
+footer {
     background-color: var(--darken);
     color: white;
     font-size: .75rem;
@@ -39,10 +41,11 @@ main {
 }
 
 a {
-    color: inherit; /* inherit text color from parent */
-    text-decoration: none; 
+    color: inherit;
+    /* inherit text color from parent */
+    text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-  }
+}
